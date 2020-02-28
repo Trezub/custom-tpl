@@ -1,0 +1,26 @@
+{
+  "name": "custom-tpl",
+  "version": "1.0.0",
+  "description": "A lightweight object template. Recursively interpolates all string properties.",
+  "main": "tpl.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trezub/custom-tpl.git"
+  },
+  "keywords": [
+    "object",
+    "string",
+    "interpolation",
+    "template",
+    "javascript"
+  ],
+  "author": "Trezub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Trezub/custom-tpl/issues"
+  },
+  "homepage": "https://github.com/Trezub/custom-tpl#readme"
+}
