@@ -1,6 +1,6 @@
 {
   "name": "custom-tpl",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A lightweight object template. Recursively interpolates all string properties.",
   "main": "tpl.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Trezub/custom-tpl/issues"
   },
-  "homepage": "https://github.com/Trezub/custom-tpl#readme"
+  "homepage": "https://github.com/Trezub/custom-tpl#readme",
+  "dependencies": {
+    "regex-escape": "^3.4.9"
+  }
 }
