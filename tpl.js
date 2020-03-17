@@ -31,6 +31,7 @@ function ReplaceKeys(tpl, object, matches, left, right) {
  * @param {object} object 
  */
 function ReplaceAll(left, right, template, object) {
+    if (template == null) return template;
     let output;
     const regex = new RegExp(`(?<=${Escape(left)})[\\w-]+(?=${Escape(right)})`, 'g');
     switch (typeof template) {
